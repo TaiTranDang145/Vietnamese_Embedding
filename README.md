@@ -28,10 +28,7 @@ Trên macOS, thay vì cài đặt bản PyTorch CPU-only như Linux, bạn nên 
 # Nâng cấp pip
 pip install --upgrade pip
 
-# Cài đặt PyTorch hỗ trợ tăng tốc MPS trên Apple Silicon
-pip install torch
-
-# Cài đặt các thư viện phụ thuộc còn lại
+# Cài đặt tất cả các thư viện phụ thuộc (bao gồm cả PyTorch)
 pip install -r requirements.txt
 ```
 
